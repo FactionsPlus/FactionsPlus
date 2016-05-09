@@ -1,0 +1,14 @@
+name: FactionsPlus
+author: Bulk
+main: FactionsPlus
+api: 2.0.0
+version: 1.0
+commands:
+ f:
+  permission: factions.command
+  description: FactionsPlus Command
+  usage: /f [help]
+permissions:
+    factions.command:
+      default: true
+      description: FactionsPlus command
