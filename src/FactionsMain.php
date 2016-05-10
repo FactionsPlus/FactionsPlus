@@ -18,3 +18,5 @@ use pocketmine\block\Snow;
 use pocketmine\math\Vector3;
 use pocketmine\level\Position;
 
+
+class FactionsMain extends PluginBase implements Listener {
