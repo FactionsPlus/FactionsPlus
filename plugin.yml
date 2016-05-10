@@ -1,6 +1,6 @@
 name: FactionsPlus
 author: Bulk
-main: FactionsPlus
+main: FactionsMain.php
 api: 2.0.0
 version: 1.0
 commands:
