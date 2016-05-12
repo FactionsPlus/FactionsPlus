@@ -19,3 +19,10 @@ use pocketmine\level\Position;
 
 
 class FactionsMain extends PluginBase implements Listener {
+
+	public $db;
+	public $prefs;
+	public $war_req = [];
+	public $wars = [];
+	public $war_players = [];
+	public function onEnable() {
