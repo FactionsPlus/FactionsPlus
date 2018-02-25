@@ -25,4 +25,11 @@ class FactionsMain extends PluginBase implements Listener {
 	public $war_req = [];
 	public $wars = [];
 	public $war_players = [];
+	
 	public function onEnable() {
+		$this->getLogger()->notice("FactionsPlus Is Enabled.");
+	}
+	
+	public function onDisable() {
+		
+	}
